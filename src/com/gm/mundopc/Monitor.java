@@ -1,7 +1,7 @@
 package com.gm.mundopc;
 
 public class Monitor {
-    private int idMonitor;
+    private final int idMonitor;
     private String marca;
     private double tamanio;
     private static int contadorMonitores;
@@ -13,10 +13,6 @@ public class Monitor {
         this();
         this.marca = marca;
         this.tamanio = tamanio;
-    }
-
-    public int getIdMonitor() {
-        return idMonitor;
     }
 
     public String getMarca() {
@@ -33,10 +29,6 @@ public class Monitor {
 
     public void setTamanio(double tamanio) {
         this.tamanio = tamanio;
-    }
-
-    public static int getContadorMonitores() {
-        return contadorMonitores;
     }
 
     @Override

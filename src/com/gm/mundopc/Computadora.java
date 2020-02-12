@@ -21,14 +21,6 @@ public class Computadora {
         this.raton = raton;
     }
 
-    public int getIdComputadora() {
-        return idComputadora;
-    }
-
-    public void setIdComputadora(int idComputadora) {
-        this.idComputadora = idComputadora;
-    }
-
     public String getNombre() {
         return nombre;
     }
