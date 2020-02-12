@@ -7,9 +7,10 @@ public class Computadora {
     private Monitor monitor;
     private Teclado teclado;
     private Raton raton;
+    private static int contadorComputadoras;
     
     private Computadora(){
-        
+        this.idComputadora = ++contadorComputadoras;
     }
     
     public Computadora(String nombre, Monitor monitor, Teclado teclado, Raton raton){
